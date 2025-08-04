@@ -43,7 +43,7 @@
                             <td><?php echo $filas['nombre']; ?></td>
                             <td><?php echo $filas['nc_alumno']; ?></td>
                             <td>
-                                <a href='editar.php?id_alumno=<?php echo $filas["id_alumno"]; ?>' class="button1 text-end">Editar</a>
+                                <a href='editar.php?id_alumno=<?php echo $filas["id_alumno"]; ?>' class="button3 text-end">Editar</a>
                                 <a href='eliminar.php?id_alumno=<?php echo $filas["id_alumno"]; ?>' class="button2 text-end" onclick="return confirmar()">Eliminar</a>
                             </td>
                         </tr>

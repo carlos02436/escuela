@@ -1,27 +1,29 @@
 body {
-    background-image: url(img/back-to-school-2614359_1920.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+  background-image: url(img/back-to-school-2614359_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Cascadia Code', monospace; 
+  font-size: 16px;
 }
 
-/* From Uiverse.io by Arikai96 */ 
+/* From Uiverse.io by Arikai96 */
 .button {
   padding: 10px 25px;
   border-radius: 15px;
   border: 0;
-  background-color: rgb(255, 193, 7); /* amarillo Bootstrap */
+  background-color: rgb(255, 193, 7);
+  /* amarillo Bootstrap */
   letter-spacing: normal;
   font-size: 13px;
   font-weight: bold;
   transition: all 0.3s ease;
   box-shadow: rgb(230, 180, 5) 0px 7px 0px 0px;
-  color: black; /* mejor contraste para amarillo */
+  color: black;
+  /* mejor contraste para amarillo */
   cursor: pointer;
   width: auto;
-  margin-bottom: 2rem;  
+  margin-bottom: 2rem;
   text-decoration: none;
 
   /* alineación a la derecha */
@@ -42,6 +44,12 @@ body {
   transition: 200ms;
 }
 
+.form-wrapper {
+  width: 100%;
+  max-width: 450px;
+  /* Reduce el ancho del formulario */
+}
+
 /* Contenedor para poner los botones uno al lado del otro */
 .botones-acciones {
   display: flex;
@@ -55,7 +63,8 @@ body {
   padding: 8px 20px;
   border-radius: 10px;
   border: 0;
-  background-color: rgb(33, 150, 243); /* azul */
+  background-color: rgb(33, 150, 243);
+  /* azul */
   letter-spacing: normal;
   font-size: 13px;
   font-weight: bold;
@@ -67,7 +76,7 @@ body {
 }
 
 .button1:hover {
-  box-shadow: rgb(30, 130, 210) 0px 4px 0px 0px;
+  box-shadow: rgb(33, 150, 243);
   transform: translateY(2px);
 }
 
@@ -83,7 +92,8 @@ body {
   padding: 8px 20px;
   border-radius: 10px;
   border: 0;
-  background-color: rgb(255, 56, 86); /* rojo */
+  background-color: rgb(255, 56, 86);
+  /* rojo */
   letter-spacing: normal;
   font-size: 13px;
   font-weight: bold;
@@ -102,6 +112,34 @@ body {
 .button2:active {
   background-color: rgb(255, 56, 86);
   box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+  transform: translateY(6px);
+  transition: 200ms;
+}
+
+/* Botón verde */
+.button3 {
+  padding: 8px 20px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(40, 167, 69); /* verde base */
+  letter-spacing: normal;
+  font-size: 13px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: rgb(32, 136, 56) 0px 6px 0px 0px; /* sombra verde más oscura */
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button3:hover {
+  box-shadow: rgb(32, 136, 56) 0px 4px 0px 0px;
+  transform: translateY(2px);
+}
+
+.button3:active {
+  background-color: rgb(40, 167, 69);
+  box-shadow: rgb(32, 136, 56) 0px 0px 0px 0px;
   transform: translateY(6px);
   transition: 200ms;
 }
