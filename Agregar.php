@@ -7,13 +7,13 @@
 
 	if (isset($_POST['enviar'])) {  // Verificamos si se presionó el botón "enviar" del formulario
 		$nombre=$_POST['nombre'];  	// Capturamos los valores enviados desde el formulario
-		$nocontrol=$_POST['nocontrol'];
+		$nc_alumno=$_POST['nc_alumno'];
 
 
 		include("conexion.php");
 
-		$sql="insert into alumnos (nom_alumno,ncon_alumno) 
-		values ('".$nombre."', '".$nocontrol."')"; 
+		$sql="insert into alumnos (nombre,nc_alumno) 
+		values ('".$nombre."', '".$nc_alumno."')"; 
 
 		$resultado=mysqli_query($conexion, $sql);
 
@@ -52,7 +52,7 @@
 		<label>No Control:</label>
 		<input type="text" name="nocontrol"><br>
 		<input type="submit" name="enviar" value="AGREGAR">
-		<a href="index.php">Regresar </a>
+		<a href="index.php">Regresar</a>
 	</form>
 
 	<?php
