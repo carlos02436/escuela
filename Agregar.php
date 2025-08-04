@@ -41,7 +41,7 @@
 
 		<div class="form-wrapper">
 			<div class="card shadow">
-				<div class="card-header bg-primary text-white">
+				<div class="card-header bg-black text-white">
 					<h4 class="mb-0 text-center">AGREGAR NUEVO ALUMNO</h4>
 				</div>
 				<div class="card-body">
