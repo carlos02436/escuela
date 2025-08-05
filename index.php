@@ -14,7 +14,7 @@
 
     <div class="container mt-5">
 
-        <h1 class="text-center my-5 text-white">LISTADO DE ALUMNOS 2025</h1>
+        <h1 class="text-center my-5 text-white" style="font-family: 'Cascadia Code', monospace;">LISTADO DE ALUMNOS 2025</h1>
 
         <!-- From Uiverse.io by Arikai96 -->
         <a class="button text-end text-center" style="width: 12rem;" href='Agregar.php'>AGREGAR ALUMNO</a>
